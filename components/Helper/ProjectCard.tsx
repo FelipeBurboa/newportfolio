@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { GlobeAltIcon } from "@heroicons/react/16/solid";
 
 interface Props {
   title: string;
@@ -8,9 +9,20 @@ interface Props {
   tech3: string;
   tech4: string;
   image: string;
+  link?: string;
+  github?: string;
 }
 
-const ProjectCard = ({ title, tech1, tech2, tech3, tech4, image }: Props) => {
+const ProjectCard = ({
+  title,
+  tech1,
+  tech2,
+  tech3,
+  tech4,
+  image,
+  link,
+  github,
+}: Props) => {
   return (
     <div className="grid w-[80%] mx-auto pt-[5rem] grid-cols-1 lg:grid-cols-2 gap-10 items-center">
       <div className="p-4 rounded-xl relative cursor-pointer hover:rotate-6 transform transition-all duration-200 bg-gray-800 shadow-md">
@@ -23,7 +35,23 @@ const ProjectCard = ({ title, tech1, tech2, tech3, tech4, image }: Props) => {
         />
       </div>
       <div>
-        <h1 className="text-[25px] text-white">{title}</h1>
+        <div className="flex items-center gap-x-3">
+          <h1 className="text-[25px] text-white">{title}</h1>
+          <GlobeAltIcon
+            className="w-[32px] h-[32px] opacity-80 cursor-pointer text-white"
+            onClick={() => window.open(`${link}`)}
+          />
+          {github && (
+            <Image
+              src="/images/github.svg"
+              width={30}
+              height={30}
+              alt="github"
+              className="opacity-80 cursor-pointer"
+              onClick={() => window.open(`${github}`)}
+            />
+          )}
+        </div>
         <p className="text-white opacity-65 text-[15px] mt-[1rem]">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus,
           voluptas excepturi? Culpa enim beatae consequuntur vero harum

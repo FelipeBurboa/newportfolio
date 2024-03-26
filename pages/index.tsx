@@ -10,6 +10,7 @@ import Skills from "@/components/Skills";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import useSmoothScroll from "@/components/Helper/smoothScroll";
 
 const HomePage = () => {
   const [showNav, setShowNav] = useState(false);
@@ -25,16 +26,26 @@ const HomePage = () => {
     });
   }, []);
 
+  useSmoothScroll(closeNavHandler);
+
   return (
     <div className="overflow-hidden">
       <NavMobile showNav={showNav} closeNav={closeNavHandler} />
       <Nav openNav={showNavHandler} />
-      <Hero />
+      <div id="inicio">
+        <Hero />
+      </div>
       <AboutMe />
       <Services />
-      <Skills />
-      <Project />
-      <Contact />
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="project">
+        <Project />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );

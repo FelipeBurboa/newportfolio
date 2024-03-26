@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[3rem] items-center">
           <div className="">
             <h1 data-aos="fade-right" className="text-[#c4cfde] mb-[1.3rem]">
-              BIENVENIDO A MI MUNDO
+              BIENVENIDO A MI PORTAFOLIO
             </h1>
             <div data-aos="fade-right" data-aos-delay="400">
               <h1 className="xl:text-[50px] lg:text-[40px] md:text-[35px] text-[25px] font-semibold leading-[2.6rem] text-white">
@@ -29,19 +29,35 @@ const Hero = () => {
             </p>
             <div className="mt-[2rem] flex items-center space-x-6">
               <button
-                data-aos="zoom-in"
-                data-aos-delay="1200"
-                className="relative flex h-[50px] w-40 items-center justify-center font-semibold overflow-hidden bg-red-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-600 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
-              >
-                <span className="relative z-10">Contrátame</span>
-              </button>
-              <button
+                onClick={() => window.open("/files/CVFelipeBurboa.pdf")}
                 data-aos="zoom-out"
                 data-aos-delay="1600"
-                className="before:ease-out relative h-12 w-40 overflow-hidden bg-orange-600 text-white font-semibold shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-green-700 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180"
+                className="before:ease-out relative h-12 w-40 overflow-hidden bg-orange-600 text-white font-semibold shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-green-700 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180 rounded-md"
               >
                 <span className="relative z-10">Descarga CV</span>
               </button>
+              <Image
+                src="/images/github.svg"
+                alt="github"
+                width={45}
+                height={45}
+                data-aos="zoom-out"
+                data-aos-delay="1600"
+                className="object-cover mx-auto cursor-pointer opacity-80"
+                onClick={() => window.open("https://github.com/FelipeBurboa")}
+              />
+              <Image
+                src="/images/linkedin.svg"
+                alt="github"
+                width={47}
+                height={47}
+                data-aos="zoom-out"
+                data-aos-delay="1600"
+                className="object-cover mx-auto cursor-pointer opacity-80"
+                onClick={() =>
+                  window.open("https://www.linkedin.com/in/felipe-burboa/")
+                }
+              />
             </div>
           </div>
           <div

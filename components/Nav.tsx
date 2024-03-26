@@ -31,22 +31,22 @@ const Nav = ({ openNav }: Props) => {
         </div>
         <ul className="md:flex hidden items-center space-x-10">
           <li>
-            <a className="nav__link" href="#">
+            <a className="nav__link" href="#inicio">
               Inicio
             </a>
           </li>
           <li>
-            <a className="nav__link" href="#">
+            <a className="nav__link" href="#skills">
               Habilidades
             </a>
           </li>
           <li>
-            <a className="nav__link" href="#">
+            <a className="nav__link" href="#project">
               Proyectos
             </a>
           </li>
           <li>
-            <a className="nav__link" href="#">
+            <a className="nav__link" href="#contact">
               Contacto
             </a>
           </li>

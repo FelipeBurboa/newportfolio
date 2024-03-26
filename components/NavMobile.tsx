@@ -18,22 +18,22 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
         className={`text-white ${navOpenStyle} fixed flex items-center flex-col justify-center h-[100%] transform transition-all duration-300 delay-300 w-[60%] bg-red-600 space-y-14 z-[10006]`}
       >
         <li>
-          <a className="nav__link text-[25px] sm:text-[30px]" href="#">
+          <a className="nav__link text-[25px] sm:text-[30px]" href="#inicio">
             Inicio
           </a>
         </li>
         <li>
-          <a className="nav__link text-[25px] sm:text-[30px]" href="#">
+          <a className="nav__link text-[25px] sm:text-[30px]" href="#skills">
             Habilidades
           </a>
         </li>
         <li>
-          <a className="nav__link text-[25px] sm:text-[30px]" href="#">
+          <a className="nav__link text-[25px] sm:text-[30px]" href="#project">
             Proyectos
           </a>
         </li>
         <li>
-          <a className="nav__link text-[25px] sm:text-[30px]" href="#">
+          <a className="nav__link text-[25px] sm:text-[30px]" href="#contact">
             Contacto
           </a>
         </li>

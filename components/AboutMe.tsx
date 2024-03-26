@@ -92,7 +92,7 @@ const AboutMe = () => {
             >
               <p className="text-[50px] text-black font-bold">10+</p>
               <p className="text-[20px] text-black font-600">
-                Proyectos Personales
+                Proyectos Propios
               </p>
             </div>
           </div>

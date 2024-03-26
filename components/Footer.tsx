@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="pt-[5rem] pb-[3rem] bg-black">
-      <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] border-b-[1.4px] pb-5 border-gray-600 border-opacity-40">
+    <div className="pt-[3rem] pb-[1.4rem] bg-black">
+      <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[2rem] border-b-[1.4px] pb-5 border-gray-600 border-opacity-40">
         <div>
           <div className="font-logo text-white text-[18px]">
             <span className="text-[30px] md:text-[40px] text-yellow-400">
@@ -26,24 +26,8 @@ const Footer = () => {
             felipeburboa1991@gmail.com
           </p>
         </div>
-        <div className="md:mx-auto">
-          <h1 className="text-white font-semibold mb-[1.4rem] text-[17px]">
-            Links
-          </h1>
-          <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400">
-            Sobre Mí
-          </p>
-          <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400">
-            Habilidades
-          </p>
-          <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400">
-            Proyectos
-          </p>
-          <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400">
-            Contacto
-          </p>
-        </div>
-        <div className="lg:mx-auto">
+
+        <div className="lg:mx-auto mt-4">
           <h1 className="text-white font-semibold mb-[1.4rem] text-[17px]">
             Dirección
           </h1>

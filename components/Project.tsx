@@ -18,6 +18,8 @@ const Project = () => {
           tech3="Zustand"
           tech4="Axios"
           image="/images/3xi.png"
+          link="https://laboratoriocivico.vercel.app/"
+          github="https://github.com/dlab-team/c14-frontend"
         />
       </div>
       <div
@@ -32,6 +34,7 @@ const Project = () => {
           tech3="PostgreSQL"
           tech4="Docker"
           image="/images/surgencia.png"
+          link="https://surgenciaong.cl/"
         />
       </div>
       <div
@@ -46,6 +49,8 @@ const Project = () => {
           tech3="PostgreSQL"
           tech4="Firebase"
           image="/images/ronda.png"
+          link="https://c16-frontend.vercel.app/"
+          github="https://github.com/dlab-team/C16-backend/tree/develop"
         />
       </div>
       <div
@@ -60,6 +65,8 @@ const Project = () => {
           tech3="Clerk"
           tech4="Shadcn"
           image="/images/dropbox.png"
+          link="https://dropbox-clone-4n2islq1i-felipes-projects-70f271fa.vercel.app/"
+          github="https://github.com/FelipeBurboa/dropbox-clone"
         />
       </div>
     </div>
