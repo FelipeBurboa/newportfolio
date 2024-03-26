@@ -17,7 +17,12 @@ const AboutMe = () => {
             odit, itaque sint molestias autem iste corrupti porro odio voluptas
             exercitationem non reprehenderit
           </p>
-          <div className="mt-[2rem] space-y-3">
+          <div
+            data-aos="fade-right"
+            data-aos-placement="top-center"
+            data-aos-delay="200"
+            className="mt-[2rem] space-y-3"
+          >
             <div className="flex items-center space-x-4">
               <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
               <p className="text-[18px] text-white opacity-75">
@@ -46,25 +51,45 @@ const AboutMe = () => {
         </div>
         <div className="lg:ml-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-[2rem]">
-            <div className="p-6 text-center bg-yellow-500">
+            <div
+              data-aos="fade-left"
+              data-aos-placement="top-center"
+              data-aos-delay="400"
+              className="p-6 text-center bg-yellow-500"
+            >
               <p className="text-[50px] text-black font-bold">2</p>
               <p className="text-[20px] text-black font-600">
                 Años Experiencia
               </p>
             </div>
-            <div className="p-6 text-center bg-yellow-500">
+            <div
+              data-aos="fade-left"
+              data-aos-placement="top-center"
+              data-aos-delay="500"
+              className="p-6 text-center bg-yellow-500"
+            >
               <p className="text-[50px] text-black font-bold">3</p>
               <p className="text-[20px] text-black font-600">
                 Proyectos Reales
               </p>
             </div>
-            <div className="p-6 text-center bg-yellow-500">
+            <div
+              data-aos="fade-left"
+              data-aos-placement="top-center"
+              data-aos-delay="600"
+              className="p-6 text-center bg-yellow-500"
+            >
               <p className="text-[50px] text-black font-bold">5+</p>
               <p className="text-[20px] text-black font-600">
                 Clientes Satisfechos
               </p>
             </div>
-            <div className="p-6 text-center bg-yellow-500">
+            <div
+              data-aos="fade-left"
+              data-aos-placement="top-center"
+              data-aos-delay="700"
+              className="p-6 text-center bg-yellow-500"
+            >
               <p className="text-[50px] text-black font-bold">10+</p>
               <p className="text-[20px] text-black font-600">
                 Proyectos Personales

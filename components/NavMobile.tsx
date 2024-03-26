@@ -19,27 +19,22 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
       >
         <li>
           <a className="nav__link text-[25px] sm:text-[30px]" href="#">
-            Home
+            Inicio
           </a>
         </li>
         <li>
           <a className="nav__link text-[25px] sm:text-[30px]" href="#">
-            About
+            Habilidades
           </a>
         </li>
         <li>
           <a className="nav__link text-[25px] sm:text-[30px]" href="#">
-            Services
+            Proyectos
           </a>
         </li>
         <li>
           <a className="nav__link text-[25px] sm:text-[30px]" href="#">
-            Blog
-          </a>
-        </li>
-        <li>
-          <a className="nav__link text-[25px] sm:text-[30px]" href="#">
-            Contact
+            Contacto
           </a>
         </li>
         <XMarkIcon
