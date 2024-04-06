@@ -3,6 +3,7 @@ import Image from "next/image";
 import { GlobeAltIcon } from "@heroicons/react/16/solid";
 
 interface Props {
+  text: string;
   title: string;
   tech1: string;
   tech2: string;
@@ -14,6 +15,7 @@ interface Props {
 }
 
 const ProjectCard = ({
+  text,
   title,
   tech1,
   tech2,
@@ -52,11 +54,8 @@ const ProjectCard = ({
             />
           )}
         </div>
-        <p className="text-white opacity-65 text-[15px] mt-[1rem]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus,
-          voluptas excepturi? Culpa enim beatae consequuntur vero harum
-          architecto tempore, aut tempora impedit sit ratione eaque reiciendis
-          fugiat, iure consectetur voluptas.
+        <p className="text-white opacity-65 text-[15px] mt-[1rem] text-justify">
+          {text}
         </p>
         <div className="mt-[1.3rem] grid-cols-2 grid sm:grid-cols-3 xl:grid-cols-4 gap-[2rem]">
           <h1 className="px-6 py-3 bg-blue-700 text-white rounded-lg text-center">

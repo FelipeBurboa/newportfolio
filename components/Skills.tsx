@@ -15,11 +15,12 @@ const Skills = () => {
             Vamos a explorar mis
             <span className="text-yellow-400"> Habilidades</span>
           </h1>
-          <p className="text-[15px] mb-[1.5rem] text-white opacity-70 mt-[1.5rem]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-            consequatur fuga! At distinctio est molestiae modi perspiciatis
-            illo, corporis architecto aspernatur, repellendus quo maxime nemo
-            tempora consectetur ab omnis eaque?
+          <p className="text-[15px] mb-[1.5rem] text-white opacity-70 mt-[1.5rem] text-justify">
+            Con experiencia sólida en tecnologías como React, JavaScript,
+            Node.js y PostgreSQL, estoy preparado para desarrollar soluciones
+            web eficientes y modernas. Mi enfoque se centra en la creación de
+            aplicaciones escalables y receptivas que satisfagan las necesidades
+            del mercado actual.
           </p>
         </div>
         <div

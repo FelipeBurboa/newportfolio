@@ -12,6 +12,7 @@ const Project = () => {
       </div>
       <div data-aos="fade-left" data-aos-anchor-placement="top-center">
         <ProjectCard
+          text="Este proyecto se creó para entregar al encuestado un resultado cuantitavo en lo que respecta a la polarización entre la opinión propia y la opinion que uno piensa que tiene el extremo opuesto de uno."
           title="Test Polarizaciones"
           tech1="React"
           tech2="Tailwind"
@@ -28,6 +29,7 @@ const Project = () => {
         data-aos-delay="200"
       >
         <ProjectCard
+          text="Este blog se creó para poder dar una plataforma a la ONG de Surgencia donde ellos podrian compartir noticias, proyectos, colaboraciones, material descargable y compartir un mapa de conflictos y amenazas medioambientales"
           title="Blog Surgencia"
           tech1="NodeJS"
           tech2="Express"
@@ -43,6 +45,7 @@ const Project = () => {
         data-aos-delay="400"
       >
         <ProjectCard
+          text="Esta es una página que permitira conectar a cuidadores con otros pares para compartir sus experiencias, encontrar material de ayuda, ver videos relevantes con el tema y poder generar comunidad."
           title="Red Cuidadores"
           tech1="NodeJS"
           tech2="Express"
@@ -59,6 +62,7 @@ const Project = () => {
         data-aos-delay="600"
       >
         <ProjectCard
+          text="Este es un proyecto con autenticación con Clerk, que nos permite guardar archivos separados por usuario utilizando firebase para guardarlos. Estos archivos pueden ser borrados o descargados."
           title="Dropbox Clone"
           tech1="NextJS"
           tech2="Firebase"

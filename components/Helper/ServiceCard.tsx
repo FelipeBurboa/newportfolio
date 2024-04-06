@@ -11,6 +11,7 @@ import React from "react";
 interface Props {
   title: string;
   num: string;
+  text: string;
 }
 
 const iconMapping = {
@@ -22,7 +23,7 @@ const iconMapping = {
   "06": ClipboardDocumentCheckIcon,
 };
 
-const ServiceCard = ({ title, num }: Props) => {
+const ServiceCard = ({ title, num, text }: Props) => {
   const IconComponent =
     (iconMapping as Record<string, React.ElementType>)[num] || CommandLineIcon;
 
@@ -32,11 +33,7 @@ const ServiceCard = ({ title, num }: Props) => {
       <h1 className="text-[25px] relative z-[1] text-white mt-[1rem]">
         {title}
       </h1>
-      <p className="text-white text-[15px] opacity-60 mt-[0.8rem]">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
-        delectus sunt, ex placeat voluptates quasi molestias quam atque qui
-        officia ratione.
-      </p>
+      <p className="text-white text-[15px] opacity-60 mt-[0.8rem]">{text}</p>
       <p className="text-white text-[1.6rem] font-bold absolute top-3 right-4">
         {num}
       </p>

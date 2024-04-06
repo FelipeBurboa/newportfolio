@@ -11,11 +11,13 @@ const AboutMe = () => {
             Soluciones <span className="text-yellow-400">profesionales</span>{" "}
             para tu negocio
           </h1>
-          <p className="text-[15px] mt-[1.3rem] text-white opacity-75">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-            aliquid ad dignissimos mollitia assumenda eveniet, ducimus expedita
-            odit, itaque sint molestias autem iste corrupti porro odio voluptas
-            exercitationem non reprehenderit
+          <p className="text-[15px] mt-[1.3rem] text-white opacity-75 text-justify">
+            Como desarrollador, ofrezco soluciones integrales para mejorar tu
+            negocio en línea. Desde el diseño frontend hasta el backend, mi
+            enfoque abarca todos los aspectos del desarrollo web, incluyendo la
+            creación de API y la gestión de bases de datos. Estoy comprometido a
+            proporcionarte las herramientas necesarias para el éxito de tu
+            proyecto.
           </p>
           <div
             data-aos="fade-right"

@@ -16,11 +16,11 @@ const Footer = () => {
             </span>
             urboa
           </div>
-          <h1 className="text-[14px] mt-[0.5rem] text-white opacity-70">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
-            incidunt sequi at, rerum culpa et ipsum vero doloremque quos,
-            exercitationem iure, fugiat tenetur saepe aliquid inventore
-            consequuntur! Numquam, laborum id?
+          <h1 className="text-[14px] mt-[0.5rem] text-white opacity-70 text-justify">
+            ¡Gracias por explorar mi portafolio!. Si estás listo para convertir
+            tus proyectos en realidad, no dudes en contactarme. Recuerda, estoy
+            aquí para ayudarte a alcanzar tus metas tecnológicas. ¡Espero con
+            ansias colaborar contigo en el futuro cercano! ¡Hasta pronto!.
           </h1>
           <p className="mt-[1.3rem] text-yellow-400 underline font-semibold">
             felipeburboa1991@gmail.com

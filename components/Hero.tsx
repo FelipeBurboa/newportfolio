@@ -18,14 +18,14 @@ const Hero = () => {
               <TypeWriterEffect />
             </div>
             <p
-              className="mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde]"
+              className="mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde] text-justify"
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-              deleniti itaque maxime, assumenda hic nisi aperiam in totam ad
-              quisquam aut! Soluta iure eveniet, totam nihil excepturi facere
-              eum id?
+              Aquí encontrarás un vistazo a mi trabajo y mi pasión por la
+              tecnología. ¿Estás listo para explorar juntos cómo podemos hacer
+              brillar tus proyectos? ¡Adelante, déjame mostrarte lo que puedo
+              hacer por ti!"
             </p>
             <div className="mt-[2rem] flex items-center space-x-6">
               <button

@@ -10,11 +10,11 @@ const Contact = () => {
             Construyamos algo <span className="text-yellow-400">Genial</span>{" "}
             juntos
           </h1>
-          <p className="text-[15px] text-white mt-[1rem] opacity-75">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quod
-            tenetur sunt cum error, alias debitis nesciunt reiciendis eos hic
-            adipisci quaerat unde quas omnis nemo repellendus tempora doloribus
-            dolorum!
+          <p className="text-[15px] text-white mt-[1rem] opacity-75 text-justify">
+            Estoy aquí para convertir tus ideas en realidad. Si buscas llevar tu
+            proyecto al siguiente nivel, contáctame y trabajemos juntos para
+            hacerlo posible. ¡Espero con ansias poder colaborar contigo y crear
+            algo extraordinario!
           </p>
           <h1 className="mt-[2rem] mb-[2rem] text-[30px] text-yellow-400 font-bold underline">
             +56 9 86057802
