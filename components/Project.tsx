@@ -69,7 +69,7 @@ const Project = () => {
           tech3="Clerk"
           tech4="Shadcn"
           image="/images/dropbox.png"
-          link="https://dropbox-clone-4n2islq1i-felipes-projects-70f271fa.vercel.app/"
+          link="https://dropbox-clone-dusky.vercel.app/"
           github="https://github.com/FelipeBurboa/dropbox-clone"
         />
       </div>
