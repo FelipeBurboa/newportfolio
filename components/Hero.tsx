@@ -25,7 +25,7 @@ const Hero = () => {
               Aquí encontrarás un vistazo a mi trabajo y mi pasión por la
               tecnología. ¿Estás listo para explorar juntos cómo podemos hacer
               brillar tus proyectos? ¡Adelante, déjame mostrarte lo que puedo
-              hacer por ti!"
+              hacer por ti!
             </p>
             <div className="mt-[2rem] flex items-center space-x-6">
               <button
